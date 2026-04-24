@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Inter Tight';
+    src: url('public/fonts/Inter_Tight/static/InterTight-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    src: url('public/fonts/Inter_Tight/static/InterTight-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('public/fonts/Gilroy-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('public/fonts/Gilroy-Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.logo {
+    max-width: 453px;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.main-text {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 82px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 170px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2;
+}
+
+.sub-text {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.footer-bar {
+    width: 100%;
+    height: 160px;
+    background-color: white;
+    margin-bottom: 180px;
+}
+
+.page1 .footer-bar {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+.dvgk-logo-1-icon,
+.rosneft-logosvg-1-icon,
+.sibur-holding-logosvg-1-icon,
+.svg-1-icon {
+  width: 150px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  margin-left: 50px;
+}
+
+.dvgk-logo-1-icon,
+.sibur-holding-logosvg-1-icon,
+.svg-1-icon {
+  width: 120px;
+}
+
+.sibur-holding-logosvg-1-icon {
+  width: 200px;
+}
+
+.page1 .footer-bar > img:first-child {
+  margin-left: 172px;
+}
+
+.page1 .footer-bar > img:not(:first-child) {
+  margin-left: 70px;
+}
+.group-77210-1-1 {
+  width: 136px;
+  position: relative;
+  max-height: 100%;
+}
+.luk-oil-logo-kyr-1-icon {
+  height: 60px;
+  width: 186px;
+  position: relative;
+}
+.icon3 {
+  width: 52px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+.svg-1-icon {
+  width: 180px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page1 {
+    background-color: transparent;
+    background-image: url('./public/Untitled-2-copy-3@2x.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+.page2,
+.page4,
+.page6,
+.page8,
+.page10 {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.page3,
+.page5,
+.page7,
+.page9 {
+    background-color: rgba(240, 240, 240, 0.95);
+}
